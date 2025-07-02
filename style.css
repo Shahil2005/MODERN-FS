@@ -1,26 +1,4 @@
-/* .parent{
-    display:grid;
-    grid-template-columns: repeat(4,250px);
-    grid-template-rows: repeat(4,250px);
-}
-.child{
-    background-color: yellow;
-    border: 2px solid red;
-}
-.child:nth-child(1){
-    grid-column-start:1 ;
-    grid-column-end: -1;
-}
-.child:nth-child(2){
-    
-    grid-row-start:2;
-    grid-row-end: -2;
-}
-.child:nth-child(9){
-    grid-row-start: 2;
-    grid-column-end: 4;
-} */
- * {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -156,4 +134,13 @@ input[type="text"] {
   border-radius: 8px;
   object-fit: cover;
   max-height: 400px;
+}
+
+.start-site-btn {
+    background-color: rgb(18, 69, 196);
+   color:#f7f6f6;
+  padding: 0.4rem 1rem;
+  font-size: 0.9rem;
+  width: fit-content;
+  display: flex-;
 }
